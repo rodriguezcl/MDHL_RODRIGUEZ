@@ -28,6 +28,7 @@ h1 {
 }
 
 .imagenLogo {
+  box-sizing: border-box;
   position: absolute;
   right: 10%;
   top: 10%;
@@ -47,20 +48,20 @@ main>section{
 }
 
 .caja2 {
-  width: 30%;
+  width: 40%;
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 30%;
 }
 
 .caja3 {
   width: 45%;
   position: absolute;
-  right: 0%;
+  left: 52%;
   top: 30%;
 }
 
-#hockey1 {
+#hockey1, #hockey2, #hockey3 {
   display: block;
   width: 80%;
   position: absolute;
