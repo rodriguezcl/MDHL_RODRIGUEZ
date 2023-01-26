@@ -34,7 +34,7 @@ h1 {
   width: 15%;
 }
 
-.hijo1 {
+.caja1 {
   display: inline-block;
   width: 20%;
   height: 300px;
@@ -42,21 +42,21 @@ h1 {
   top: 30%;
 }
 
-.hijo2 {
+main>section{
   display: inline-block;
-  width: 40%;
-  height: 300px;
+}
+
+.caja2 {
+  width: 30%;
   position: absolute;
   left: 20%;
   top: 30%;
 }
 
-.hijo3 {
-  display: inline-block;
-  width: 39.9%;
-  height: 300px;
+.caja3 {
+  width: 45%;
   position: absolute;
-  left: 60%;
+  right: 0%;
   top: 30%;
 }
 
