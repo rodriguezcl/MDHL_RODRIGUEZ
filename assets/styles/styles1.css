@@ -26,13 +26,64 @@ h1 {
   margin-block-start: 0em;
   border-radius: 10px;
   display: block;
+  margin-block-end: 0em;
 }
 
 .imagenLogo {
   position: absolute;
   right: 10%;
   top: 10%;
-  height: 200px;
   width: 200px;
-  
+  height: 200px;
+}
+
+.hijo1 {
+  display: inline-block;
+  width: 20%;
+  height: 300px;
+  position: absolute;
+  top: 40%;
+}
+
+.hijo2 {
+  display: inline-block;
+  width: 40%;
+  height: 300px;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+
+.hijo3 {
+  display: inline-block;
+  width: 39.9%;
+  height: 300px;
+  position: absolute;
+  left: 60%;
+  top: 40%;
+}
+
+#hockey1 {
+  display: inline-block;
+  width: 75%;
+  position: absolute;
+  border-radius: 10%;
+}
+
+a.nav {
+  display: block;
+  text-align: center;
+  width: 80%;
+  height: 25%;
+  margin-top: 10%;
+}
+
+section > h3 {
+  text-align: left;
+  margin-top: 5%;
+}
+
+section > p {
+  text-align: left;
+  margin-left: 5%;
 }
