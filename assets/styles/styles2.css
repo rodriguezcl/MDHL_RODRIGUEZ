@@ -67,8 +67,7 @@ nav > a {
   right: 41%;
 }
 
-#hockey1,
-#hockey3 {
+#hockey1{
   display: block;
   width: 27%;
   position: absolute;
@@ -84,6 +83,15 @@ nav > a {
   border-radius: 10%;
   right: 2%;
   bottom: 20%;
+}
+
+#hockey3 {
+    display: block;
+    width: 27%;
+    position: absolute;
+    border-radius: 10%;
+    right: 2%;
+    bottom: 20%;
 }
 
 #style2caja2 {
