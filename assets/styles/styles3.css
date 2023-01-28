@@ -1,6 +1,109 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+main {
+  background-color: #00425A;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 2% 2% 22%;
+  top: 27.5%;
+}
+
+.imagenLogo {
+  background-color: white;
+  width: 18%;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  z-index: 1;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+#hockey1 {
+  background-color: blueviolet;
+  width: 35%;
+  position: absolute;
+  border-radius: 3%;
+  left: 43%;
+  top: 45%;
+}
+
+#hockey2 {
+  background-color: blueviolet;
+  width: 22%;
+  position: absolute;
+  border-radius: 3%;
+  left: 50%;
+  bottom: 8%;
+}
+
+#hockey3 {
+  background-color: blueviolet;
+  width: 35%;
+  position: absolute;
+  border-radius: 3%;
+  left: 43%;
+  top: 25%;
+}
+
+.caja1 {
+  background-color: #BFDB38;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 8%;
+  padding: 2% 2% 2% 19%;
+}
+
+h1 {
+  background-color: #FC7300;
+  color: white;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  padding: 1.5% 1% 1% 15%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase
+}
+
+.upcomingEvents {
+  background-color: #1F8A70;
+  color: white;
+  position: absolute;
+  top: 18%;
+  width: 100%;
+  height: 10%;
+  padding: 2% 2% 2% 24%;
+}
+
+.nav {
+  background-color: white;
+  width: 100%;
+  display: inline;
+  padding: 1.5% 6%;
+  margin-inline: 6%;
+  text-decoration: none;
+  border-radius: 5%;
+  color: black;
+}
+
+section > p,
+section > h3 {
+  margin-bottom: 2%;
+}
+
+#mailto{
+    color: #FC7300;
+}
+
