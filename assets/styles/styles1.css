@@ -6,8 +6,8 @@
 }
 
 body {
-  background: linear-gradient(to bottom, black, grey, white);
-  min-height: 150vh;
+  background: linear-gradient(to bottom, black, grey);
+  min-height: 175vh;
   width: 100%;
 }
 
@@ -28,12 +28,12 @@ h1 {
   display: flex;
   margin-top: 2vw;
   margin-left: 2vw;
-  text-shadow: 4px 2px #5fa199;
-  -webkit-text-stroke: 2px #c64832;
+  text-shadow: 4px 4px black;
+  -webkit-text-stroke: 2px black;
   color: #f8e12e;
-  font-size: 4vw;
   justify-content: flex-start;
   align-content: flex-start;
+  font: 700 3em "Oswald", sans-serif;
 }
 
 .subtitulo {
@@ -46,6 +46,11 @@ h1 {
   width: 100vw;
   justify-content: center;
   align-content: center;
+  font: 700 1.5em "Oswald", sans-serif;
+}
+
+.subtitulo:hover {
+  text-decoration: underline 2px #f8e12e;
 }
 
 .imagenLogo {
@@ -55,6 +60,11 @@ h1 {
   width: 15vw;
   bottom: 0;
   right: 4vw;
+}
+
+.imagenLogo:hover {
+  transition: 1s;
+  transform: scale(110%);
 }
 
 main {
@@ -71,23 +81,28 @@ main {
   min-width: 20vw;
 }
 
-.nav {
+.button {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2vh;
+  padding: 2vh 1vh;
   border: 2px solid black;
   margin: 2vh;
   text-align: center;
   background-color: black;
   color: #ffffff;
   border-radius: 4%;
+  font: 200 1em "Oswald", sans-serif;
 }
 
-.nav:hover{
-  background-color: #5fa199;
+.button:hover {
+  background-color: #f8e12e;
+  color: black;
+  font-weight: bolder;
+  transform: scale(110%);
+  transition: 100ms;
 }
 
 .caja2 {
@@ -100,11 +115,18 @@ main {
   min-width: 50vw;
   padding-top: 2vh;
   padding-left: 4vh;
+  color: #ffffff;
 }
 
-.caja2>p{
-margin-left: 2vh;
-margin-bottom: 4vh;
+.caja2 > p {
+  margin-top: 1.5vh;
+  margin-left: 2vh;
+  margin-bottom: 3vh;
+}
+
+.caja2 > h3 {
+  margin-bottom: 2vh;
+  color: #f8e12e;
 }
 
 .caja3 {
@@ -118,8 +140,7 @@ margin-bottom: 4vh;
 }
 
 #hockey1,
-#hockey2,
-#hockey3 {
+#hockey2{
   width: 25vw;
   display: flex;
   align-content: center;
@@ -127,4 +148,89 @@ margin-bottom: 4vh;
   margin-top: 2vh;
   margin-left: 2vh;
   border-radius: 2%;
+}
+
+#hockey3 {
+  width: 26vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 2vh;
+  border-radius: 2%;
+}
+
+article {
+  margin-bottom: 4vh;
+}
+
+article > h3,
+li > h3,
+li > p {
+  margin-bottom: 2vh;
+  margin-right: 4vw;
+}
+
+ol > li {
+  margin-right: 4vw;
+}
+
+article > h3 {
+  color: #f8e12e;
+}
+
+article > p,
+#parrafo-article {
+  margin-right: 4vw;
+}
+
+ul > li {
+  list-style-position: inside;
+  margin-right: 4vw;
+}
+
+li > h3 {
+  color: #5fa199;
+}
+.caja2 > h2 {
+  color: #c34c34;
+}
+
+table {
+  height: 50vh;
+  width: 40rem;
+  border-spacing: 2px;
+  text-align: left;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+caption {
+  margin-bottom: 2vh;
+  color: #5fa199;
+  text-align: left;
+}
+
+thead {
+  color: #c34c34;
+  font-weight: bold;
+  font-size: large;
+}
+
+strong {
+  color: #5fa199;
+}
+
+#parrafo1,
+#parrafo3 {
+  margin-bottom: 2vh;
+}
+
+#parrafo2 {
+  margin-bottom: 4vh;
+  margin-right: 20vw;
+}
+
+#parrafo4,
+#parrafo5 {
+  display: inline-block;
 }
