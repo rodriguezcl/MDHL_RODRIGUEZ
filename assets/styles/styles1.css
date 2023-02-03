@@ -6,6 +6,7 @@
 }
 
 body {
+  background-repeat: repeat;
   background: linear-gradient(to bottom, black, grey);
   min-height: 175vh;
   width: 100%;
@@ -140,7 +141,7 @@ main {
 }
 
 #hockey1,
-#hockey2{
+#hockey2 {
   width: 25vw;
   display: flex;
   align-content: center;
@@ -172,6 +173,21 @@ li > p {
 
 ol > li {
   margin-right: 4vw;
+}
+
+.margenLi {
+  margin-bottom: 2vh;
+  list-style-position: inside;
+}
+
+span {
+  color: #5fa199;
+}
+
+#list-style-2 {
+  list-style-type: lower-latin;
+  list-style-position: inside;
+  margin-top: 1vh;
 }
 
 article > h3 {
@@ -217,7 +233,7 @@ thead {
 }
 
 strong {
-  color: #5fa199;
+  color: #f8e12e;
 }
 
 #parrafo1,
@@ -233,4 +249,8 @@ strong {
 #parrafo4,
 #parrafo5 {
   display: inline-block;
+}
+
+a {
+  color: #5fa199;
 }
