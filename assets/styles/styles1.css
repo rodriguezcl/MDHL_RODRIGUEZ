@@ -246,10 +246,17 @@ strong {
   margin-right: 20vw;
 }
 
-#parrafo4,
-#parrafo5 {
+#parrafo4{
   display: inline-block;
+  width: 20vw;
+  margin-right: 4vw;
 }
+
+#parrafo5{
+  display: inline-block;
+  width: 30vw;
+}
+
 
 a {
   color: #5fa199;
