@@ -261,3 +261,16 @@ strong {
 a {
   color: #5fa199;
 }
+
+fieldset{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2px;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+fieldset>legend{
+  color: #f8e12e;
+}
