@@ -48,6 +48,7 @@ h1 {
   justify-content: center;
   align-content: center;
   font: 700 1.5em "Oswald", sans-serif;
+ 
 }
 
 .subtitulo:hover {
@@ -327,12 +328,151 @@ fieldset > p {
 .maps {
   display: flex;
   flex-wrap: wrap;
-  width: 60vw;
-  height: 90vh;
+  width: 80vw;
+  height: 25vh;
   margin-top: 4vh;
 }
 
-.maps>iframe{
+.maps > iframe {
   padding: 1vw;
   border-radius: 40px 0;
+}
+
+/* MEDIA QUERY 375PX */
+
+@media only screen and (min-width: 375px) {
+  body {
+    min-height: 325vh;
+  }
+
+  h1 {
+    font: 700 2em "Oswald", sans-serif;
+  }
+
+  .subtitulo {
+    font: 700 1em "Oswald", sans-serif;
+  }
+
+  .button {
+    font: 100 0.6em "Oswald", sans-serif;
+  }
+
+  h2, h3, span {
+    font-size: 14px;
+  }
+
+  p, li, label, div,select {
+    font-size: 12px;
+  }
+
+  table {
+    width: 75vw;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  th {
+    font-size: 14px;
+  }
+
+  iframe {
+    width: 65vw;
+    height: 30vh;
+  }
+
+  #fname{
+    width: 30vw;
+  }
+
+  #lname{
+    width: 42vw;
+  }
+
+#adress{
+  width: 38vw;
+}
+
+#city{
+  width: 52vw;
+}
+
+#zipCode{
+  width: 44vw;
+}
+
+#pgSignature, #datePermission{
+  width: 60vw;
+}
+
+/* MEDIAQUERY 768PX */
+
+@media only screen and (max-width:768px) {
+  body {
+    min-height: 250vh;
+  }
+
+  h1 {
+    font: 700 2.5em "Oswald", sans-serif;
+  }
+
+  .subtitulo {
+    font: 700 1.2em "Oswald", sans-serif;
+  }
+
+  .button {
+    font: 100 1em "Oswald", sans-serif;
+  }
+
+  h2, h3, span {
+    font-size: 16px;
+  }
+
+  p, li, label, div,select {
+    font-size: 14px;
+  }
+
+  table {
+    width: 60vw;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  th {
+    font-size: 16px;
+  }
+
+  iframe {
+    width: 30vw;
+    height: 30vh;
+  }
+
+  #fname{
+    width: 50vw;
+  }
+
+  #lname{
+    width: 57vw;
+  }
+
+#adress{
+  width: 55vw;
+}
+
+#city{
+  width: 63vw;
+}
+
+#zipCode, #date{
+  width: 17vw;
+}
+
+
+#pgSignature, #datePermission{
+  width: 70vw;
+}
+
+
+}
+
+
 }
