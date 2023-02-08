@@ -8,7 +8,7 @@
 body {
   background-repeat: repeat;
   background: linear-gradient(to bottom, black, grey);
-  min-height: 175vh;
+  min-height: 225vh;
   min-width: 100%;
 }
 
@@ -117,6 +117,7 @@ main {
   padding-top: 2vh;
   padding-left: 4vh;
   color: #ffffff;
+  margin-right: 2vw;
 }
 
 .caja2 > p {
@@ -246,70 +247,92 @@ strong {
   margin-right: 20vw;
 }
 
-#parrafo4{
+#parrafo4 {
   display: inline-block;
   width: 20vw;
   margin-right: 4vw;
 }
 
-#parrafo5{
+#parrafo5 {
   display: inline-block;
   width: 30vw;
 }
-
 
 a {
   color: #5fa199;
 }
 
-fieldset{
+fieldset {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding:10px;
+  padding: 10px;
   margin-bottom: 2vh;
   text-align: center;
 }
 
-fieldset>legend{
+fieldset > legend {
   color: #f8e12e;
 }
-fieldset>input{
-  width: 23vw;
+fieldset > input {
+  width: 21vw;
 }
 
-#adress{
-  width: 61vw;
+#adress {
+  width: 57vw;
 }
 
-#city{
-  width: 34vw;
+#city {
+  width: 32vw;
 }
 
-#zipCode{
-  width: 24vw;
+#zipCode {
+  width: 22vw;
 }
 
-#female,#male{
+#female,
+#male {
   width: 4vw;
 }
 
-#date{
+#date {
   width: 24vw;
 }
 
-#preSchool, #primero, #segundo, #tercero, #cuarto, #quinto{
+#preSchool,
+#primero,
+#segundo,
+#tercero,
+#cuarto,
+#quinto {
   width: 2vw;
 }
 
-#forward, #defense, #midfield, #goalkeeper{
+#forward,
+#defense,
+#midfield,
+#goalkeeper {
   width: 2vw;
 }
 
-fieldset>p{
+fieldset > p {
   text-align: justify;
 }
 
-#pgSignature, #datePermission{
+#pgSignature,
+#datePermission {
   width: 20vw;
+}
+
+.maps {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  height: 90vh;
+  margin-top: 4vh;
+}
+
+.maps>iframe{
+  padding: 1vw;
+  border-radius: 40px 0;
 }
