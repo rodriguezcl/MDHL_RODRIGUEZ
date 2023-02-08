@@ -9,7 +9,7 @@ body {
   background-repeat: repeat;
   background: linear-gradient(to bottom, black, grey);
   min-height: 175vh;
-  width: 100%;
+  min-width: 100%;
 }
 
 header {
@@ -266,11 +266,50 @@ fieldset{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 2px;
+  padding:10px;
   margin-bottom: 2vh;
   text-align: center;
 }
 
 fieldset>legend{
   color: #f8e12e;
+}
+fieldset>input{
+  width: 23vw;
+}
+
+#adress{
+  width: 61vw;
+}
+
+#city{
+  width: 34vw;
+}
+
+#zipCode{
+  width: 24vw;
+}
+
+#female,#male{
+  width: 4vw;
+}
+
+#date{
+  width: 24vw;
+}
+
+#preSchool, #primero, #segundo, #tercero, #cuarto, #quinto{
+  width: 2vw;
+}
+
+#forward, #defense, #midfield, #goalkeeper{
+  width: 2vw;
+}
+
+fieldset>p{
+  text-align: justify;
+}
+
+#pgSignature, #datePermission{
+  width: 20vw;
 }
