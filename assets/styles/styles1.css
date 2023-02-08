@@ -340,7 +340,7 @@ fieldset > p {
 
 /* MEDIA QUERY 375PX */
 
-@media only screen and (min-width: 375px) {
+/*@media only screen and (min-width: 375px) {
   body {
     min-height: 325vh;
   }
@@ -402,11 +402,11 @@ fieldset > p {
 
 #pgSignature, #datePermission{
   width: 60vw;
-}
+}*/
 
 /* MEDIAQUERY 768PX */
 
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
   body {
     min-height: 250vh;
   }
@@ -472,7 +472,5 @@ fieldset > p {
 }
 
 
-}
+} */
 
-
-}
